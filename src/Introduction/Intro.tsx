@@ -17,11 +17,11 @@ const Intro = () => {
 
     useEffect(()=>{
   
-        scale.value = withRepeat(withTiming(progress.value + 20,{
-            duration: 1000,
-            easing: Easing.inOut(Easing.back(4)),
-            reduceMotion: ReduceMotion.System,
-        }))
+        // scale.value = withRepeat(withTiming(progress.value + 20,{
+        //     duration: 1000,
+        //     easing: Easing.inOut(Easing.back(4)),
+        //     reduceMotion: ReduceMotion.System,
+        // }))
         
     },[])
 
