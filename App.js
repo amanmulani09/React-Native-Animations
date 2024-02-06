@@ -2,22 +2,13 @@ import { StatusBar } from 'expo-status-bar';
 import { SafeAreaView, StyleSheet, Text, View } from 'react-native';
 import Intro from './src/Introduction/Intro';
 import FadeTextEffect from './src/SelfPractice/FadeTextEffect';
-
+import Main from './src/PangestureHandler/Main';
 export default function App() {
   return (
-    <SafeAreaView style={styles.container}>
-      <StatusBar style="auto" />
-        {/* <Intro /> */}
-        <FadeTextEffect />
-    </SafeAreaView>
+        <Main />
   );
 }
 
 const styles = StyleSheet.create({
-  container: {
-    flex: 1,
-    backgroundColor: '#fff',
-    justifyContent:'center',
-    alignItems:'center'
-  },
+ 
 });
